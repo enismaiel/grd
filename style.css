@@ -1,0 +1,97 @@
+﻿h3{
+	margin-top: -40px;
+}
+.box{
+	background-color:lavender;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+	float: right;
+	width: 100%;
+	text-align: justify;
+}
+
+.side{
+	background-color: antiquewhite;
+	margin: 5px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 5px;
+	text-align: justify;
+	width: 25%;
+	float: left;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:active{
+	color: blue;
+}
+
+a:hover, a:visited{
+	color:coral;
+}
+
+/* Main Header */
+
+.mainContent{
+	margin: 20px auto;
+	width: 70%;
+	clear: both;
+	float: right;
+	
+}
+
+.mainHeader nav {
+	background-color: bisque;
+	border-radius: 10px;
+	width: 100%;
+	clear: both;
+}
+
+.mainHeader h1, .mainHeader h3{
+	background-color: lightgrey;
+	color: black;
+	border-radius: 10px;
+	padding: 5px;
+	padding-right: 10px;
+}
+.mainHeader nav ul{
+	list-style: none;
+	text-align: right;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+	display: inline;
+	margin: 10px;
+}
+
+.mainHeader a:link, .mainHeader a:visited{
+	display: inline-block;
+	color: blue;
+}
+
+.mainHeader a:active, .mainHeader a:hover{
+	background-color:burlywood;
+	text-shadow:none;
+}
+
+.postInfo{
+	color: crimson;
+	font-size: 80%;
+	margin-top: -3px;
+}
+
+.footer{
+	background-color:lightgrey;
+	border-radius: 5px;
+	text-align: right;
+	display: inline-flex;
+	padding: 5px 5px 5px 5px;
+}
